@@ -1,0 +1,198 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+
+body {
+    max-width: 100%;
+    margin: auto;
+    background: linear-gradient(150deg,rgb(247, 244, 244), #8B008B);
+    height: 320vh;
+}
+    
+    
+    
+
+
+
+
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+header{
+    background-color: white;
+    padding-bottom: 37px;
+    max-height: 100px;
+    transform: translateY(-60px);
+    
+}
+
+ 
+.wall{
+    width: 300px;
+    height: 10px;
+     margin-left: 50px;
+     color: #8B008B;
+     font-size: 80px;
+     font-family: fantasy;
+     transform: translateY(30px);
+ }
+ 
+  
+ 
+  .navbar{
+    transform: translateY(10px);
+    margin: 20px;
+    margin-left: 440px;
+ 
+  }
+  .navbar ul a{
+     color: #8B008B;
+     text-decoration: none;
+     margin: 22px;
+  } 
+  
+ 
+  .navbar ul a:hover{
+     background-color: #8B008B;
+     box-shadow:  2px 2px 10px #969595,
+     -2px -2px 10px white;
+     color: white;
+     margin: 20px;
+     padding: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     transition: 0.5s ease;
+  } 
+ .pr0{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+ }
+ .h0{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.pr1{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.h1{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.pr2{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.h2{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.pr3{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.h3{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.pr4{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.h4{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin: 10px;
+}
+.pr5{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.h5{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.pr6{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.h6{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin: 10px;
+}
+.boton{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid black ;
+    margin-left: 580px;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    font-family: fantasy;
+    color:azure;
+    font-size: 20px;
+  }
+ .boton:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid black ;
+    box-shadow:  0 0 10px black;
+    border-color: black;
+    width: 230px;
+    height: 65px;
+    cursor: pointer;
+    font-family: fantasy;
+    transition: 0.5s ease;}

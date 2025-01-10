@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>registro empresa</title>
+  <link rel="stylesheet" href="registro.css">
+  
+</head>
+<body>
+
+  <div class="reg">
+  <div>
+    <form action="insertar.php" method="POST" class="registro1">
+     <h1 class="titulo">Registro</h1>
+      <input type="text"id="Nombre" placeholder="Nombre del usuario o de la empresa"class="nombre-e" name="Nombre">
+
+     <input type="gmail"id="Correo" placeholder="Correo" name="Correo" class="correo">
+     
+
+      <input type="text"id="NIF"name="NIF" placeholder="Etiqueta para tu cuenta"class="n-id">
+
+      <label for=""class="cc">Fecha de nacimiento o de creacion de la empresa</label>
+      <br>
+      <input type="datetime-local"id="Fecha" name="Fecha" class="fechas">
+      
+      <input type="password"id="Contraseña"name="Contraseña"placeholder="Contraseña"class="contra">
+    
+      <input type="password"id="Confirmar"name="Confirmar"placeholder="Confirmar"class="comf">
+      <a href="eleccion.html"><button type="button" class="botton">Volver</button></a>
+    
+      <p  class="p"> ¿Ya tienes una cuenta? <br> <a href="inicio de sesion.html"> Iniciar sesión </a></p>
+      <p>Aquí se muestran los terminos y condiciones<a href="terminos.html"> Terminos y condiciones</a></p>
+      <div class="container">
+      <label>Aceptar terminos y condiciones</label>
+      <input type="checkbox"name="radio" id="opcion" class="opcion">
+      </div>
+  
+   <a href="index.html"><button type="button" class="boton-primario">crear cuenta</button></a>
+   </form>
+  </div>
+</div>
+
+</body>
+
+
+</html>

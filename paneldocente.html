@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Docente</title>
+    <link rel="stylesheet" href="../css/paneldocente.css">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="https://placehold.co/150x150" alt="Foto del docente">
+        <h2>Naisbel</h2>
+        <h3>Artes</h3>
+        <div class="loguito">
+            <img src="../recursos/Facil y sencillo transparente.png" alt="Logotipo de Fácil y Sencillo">
+        </div>
+    </div>
+    <div class="content">
+        <a href="../html/editarnotasmaterias.html ">Editar Notas</a>
+        <a href="estudiantes.php">REGISTER STUDENT</a>
+    </div>
+    <div id="perfil">
+        <h2>Tu Perfil</h2>
+        <img id="fotoPerfil" src="" alt="Foto de perfil" style="max-width: 150px;"/><br/>
+        <strong>Nombre:</strong> <span id="nombrePerfil"></span><br/>
+        <strong>Tipo:</strong> <span id="tipoPerfil"></span><br/>
+        <strong>Descripción:</strong> <span id="descripcionPerfil"></span><br/>
+    </div>
+    <form action="insertar2.php" method="POST" id="formulario">
+        <h1>Modificacion del perfil</h1>
+        <h3>Nombre</h3>
+        <input type="text" name="Nombre" id="nombre">
+    
+        <h3>Diseñador o Empresa</h3>
+        <select id="tipo" name="Dis.Em" id class="DE" required>
+            
+            <option value="diseñador">Diseñador</option>
+            <option value="emprendedor">Empresa</option> 
+        </select>
+    
+       <h3>Cambia tu foto de perfil</h3>
+        <input type="file" id="foto" name="Imagen" id accept="image/*" required class="foto"><br><br>
+    
+       <h3>Descripcion</h3>
+        <textarea id="descripcion" name="Descripcion" id required class="textarea"></textarea><br><br>
+    
+        <input type="submit" id="button" value="modificar perfil">
+    </form>
+    
+    
+    <script src="perfil.js"></script>
+    
+    </body>
+    </html>
+    
+    
+    <script> 
+    document.getElementById('formulario').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        const nombre = document.getElementById('nombre').value;
+        const tipo = document.getElementById('tipo').value;
+        const foto = document.getElementById('foto').files[0];
+        const fotoURL = URL.createObjectURL(foto);
+        const descripcion = document.getElementById('descripcion').value;
+        document.getElementById('nombrePerfil').textContent = nombre;
+        document.getElementById('tipoPerfil').textContent = tipo;
+        document.getElementById('fotoPerfil').src = fotoURL;
+        document.getElementById('descripcionPerfil').textContent = descripcion;  
+        }, 5000);
+        document.getElementById('perfil').style.display = 'block';
+    ;
+    </script>
+</body>
+</html>

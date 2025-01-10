@@ -1,0 +1,162 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+
+body {
+  max-width: 100%;
+  margin: auto;
+  background: linear-gradient(150deg,rgb(247, 244, 244), rgb(235 40 153));
+  height: 700vh;
+}
+  
+  
+  
+
+
+
+
+
+.container{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+header{
+  background-color: white;
+  padding-bottom: 37px;
+  max-height: 100px;
+  transform: translateY(-60px);
+}
+
+
+.wall{
+ width: 300px;
+ height: 10px;
+  margin-left: 50px;
+  color: rgb(191 16 159);
+  font-size: 80px;
+  font-family: fantasy;
+  transform: translateY(30px);
+}
+
+
+
+.navbar{
+ transform: translateY(10px);
+ margin: 20px;
+ margin-left: 440px;
+
+}
+.navbar ul a{
+  color: rgb(191 16 159);
+  text-decoration: none;
+  margin: 22px;
+} 
+
+
+.navbar ul a:hover{
+  background-color: rgb(191 16 159);
+  box-shadow:  2px 2px 10px #969595,
+  -2px -2px 10px white;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s ease;
+} 
+
+.formulario
+ {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 15px;
+  transform: translate(80vh,10vh);
+  box-shadow: 6px 6px 15px rgb(191 16 159),
+  -6px -6px -15px white;  
+}
+
+
+.video-section {
+  margin: auto; 
+  display: flex;
+  flex-wrap: wrap;
+  
+    display: grid;
+    justify-items: center;
+  
+  flex-direction: column;
+  top: -220px;
+}
+
+
+.video {
+  width: 300px;
+  height: 200px;
+  margin-top: 400px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 5px;
+  width: 1002px;
+  height: 800px;
+  box-shadow: 6px 6px 15px rgb(191 16 159),
+  -6px -6px -15px white;  
+  
+  
+}
+
+
+.video-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.video-description {
+  font-size: 14px;
+  
+}
+.v{
+margin-top: 20px;
+}
+.t{
+  margin-top: 20px;
+}
+.d{
+  margin-top: 20px;
+}
+.b{
+
+  transform: translate(97.5vh,-1vh);
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#bbb{
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: translate(98vh);
+}
